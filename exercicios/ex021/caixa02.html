@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(179, 226, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            border-radius: 10px 10px;
+            box-shadow:1px 2px 5px 0px rgb(0 0 0 / 54%);
+            background-color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+        }
+        nav{
+            background-color: rgb(175, 214, 238);
+            margin: 0px 110px;
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        main{
+            border-radius: 10px;
+            box-shadow:1px 2px 5px 0px rgb(0 0 0 / 54%);;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        #noticiaum{
+            box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.39);
+            border-radius: 0px 20px;
+            background-color: lightgray;
+            padding: 10px;
+        }
+        #noticiadois{
+            margin-top: 10px;
+            background-color: white;
+            padding: 10px;
+        }
+        aside{
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+            border-radius: 3px;
+            border: solid 3px black;
+            padding: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding:3px;
+        }
+        footer > p{
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping Tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Boas Novas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt nostrum nihil reiciendis ipsum corporis porro atque</p>
+        </section>
+        <section >
+            <article id="noticiaum">
+                <h2>Artigo Um</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quod iure fuga deserunt. Libero et quas quasi dicta esse odit beatae accusantium aut ex iusto ad debitis nobis, quod laboriosam?   Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis mollitia error eveniet natus totam delectus, unde ad aliquid in non illum molestiae possimus! In quibusdam tenetur adipisci consequatur nisi.
+                </p>   
+            </article>
+            <article id="noticiadois">
+                <h2>Artigo Dois</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut similique numquam neque, soluta nostrum eos fuga iste, alias minima, aliquid deleniti vitae eius. Temporibus voluptate obcaecati, itaque iure optio quasi.</p>
+                <aside>
+                    <h3>Observações</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum natus provident ex soluta voluptatum delectus, id mollitia illo temporibus corporis magnam debitis minus quis dolore, animi molestias sint officiis.</p>
+                </aside>
+          </article>
+        </section>
+    </main>   
+    <footer>
+        <p>Desenvolvido por <strong>Victor Rocumback</strong> &copy;</p>
+    </footer>
+</body>
+</html>

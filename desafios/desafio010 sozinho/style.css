@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b0fdd8;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2CEAA3, #10583e);
+    color: white;
+    text-align: center;
+    padding: 20px;   
+}
+#tituloprincipal{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
+}
+
+#principal{
+    width: 440px;
+    margin: auto;
+}
+
+#principal > h1 {
+    font-family: 'Righteous', serif;
+    font-size: 2em;
+}
+
+nav{
+    text-align: left;
+
+}
+
+nav > a{
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+main{
+    
+
+}
+
+#conteudo{
+    box-shadow: 4px 4px 5px #00000030;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 700px;
+}
+a{  
+    font-weight: bolder;
+    text-decoration: none;
+    color: #00a547;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+strong{
+    color: #005826;
+    font-weight: bold;
+
+}
+#conteudo > h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2A6041;
+}
+h2{
+    font-family: 'Orbitron', sans-serif;
+    color: #2A6041;
+    background-image: linear-gradient(to right, #9ddfc7, white);
+}
+
+p{
+    text-indent: 30px;
+}
+
+img{
+    width: 690px;
+}
+
+#bugdroid{
+    width: 300px;
+    margin: auto;
+}
+
+#bugdroid > img{
+    width: 300px;
+    height: 195px;
+    margin: auto;
+}
+
+#video{
+    box-shadow: 4px 4px 5px #00000030;
+    background-color: #10583e;
+    width: 650px;
+    margin: auto;
+    padding: 45px;
+}
+
+aside{
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+    margin: 0px auto 10px auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 4px 4px 5px #00000030;
+}
+
+#final > h3{
+    background-color: #28965A;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#final{
+    box-shadow: 4px 4px 5px #a0a0a0;
+    background-color: #b0fdd8 ;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+ul{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+footer{
+    background-color: #10583e;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 2px;
+}
+#dev>strong{
+    color: white;
+
+
+}
