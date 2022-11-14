@@ -33,7 +33,6 @@ a.external::after{
 }
 
 header{
-    background-color: var(--cor-subtitulo);
     min-height: 150px;
     text-align: center;
     padding: 40px;
@@ -59,7 +58,6 @@ header p {
 }
 
 nav{
-    margin: 0px;
     background-color: var(--cor-strong);
     padding: 10px;
     box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.445);
@@ -94,7 +92,6 @@ main h1{
     font-weight: normal;
     color: var(--cor-titulo);
     font-family: var(--fonte-android);  
-    font-weight: normal; 
     font-size: 1.8em;
 }
 
