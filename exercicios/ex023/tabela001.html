@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td{
+            border: 1px solid black;
+           text-align: right;
+            vertical-align: top;
+        }
+        table{
+            width: 500px;
+            height: 500px;
+            
+            border-collapse:collapse ;
+            
+        }
+
+        td.destaque{
+            background-color: lightcoral;
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+        tr.linha-destaque{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira Tabela</h1>
+    <table>
+        <tr class="linha-destaque">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td class="destaque">A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+</body>
+</html>
