@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: lightgray;
+            font-size: 1.2em;
+            padding: 10px;
+            font-weight: bold;
+        }
+        table{
+            width: 500px;
+            
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead>tr, tfoot>tr{
+            color: white;
+            background-color: darkgray;
+        }
+        td.position{
+            text-align: center;
+        }
+        td.num{
+            text-align: right;
+        }
+        tr#primeiro{
+            background-color: greenyellow;
+        }
+        tr#ultimo{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando Tabelas Grandes</h1>
+    <table>
+        <caption>Número da População nas Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 60px;">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 60px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="primeiro">
+                <td class="position">1</td>
+                <td>São Paulo</td>
+                <td class="num">46 649 132</td>
+            </tr>
+            <tr>
+                <td class="position">2</td>
+                <td>Minas Gerais</td>
+                <td class="num">21 411 923</td>
+            </tr>
+            <tr>
+                <td class="position">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 463 349</td>
+            </tr>
+            <tr id="ultimo">
+                <td class="position">4</td>
+                <td>Bahia</td>
+                <td class="num">14 985 284</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <th>Total</th>
+                <td class="num"><strong>100.509.688</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
