@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* CSS TO PRINT */
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+
+menu{
+    display: none;
+}
+
+header > h1{
+    text-align: center;
+}
+
+article > h2{
+    text-align: center;
+}
+
+article{
+    width: 100%;
+    text-align: justify;
+}
+
+article::after{
+    font-size: .5em;
+    text-align: center;
+    content: 'Criado por Victor Rocumback da Silva Matos o mais pika da galáxia respeita';
+}

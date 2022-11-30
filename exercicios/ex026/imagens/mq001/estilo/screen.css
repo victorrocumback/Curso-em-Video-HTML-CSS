@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* CSS TO SCREEN */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header > h1{
+    text-align: center;
+    padding: 10px;
+}
+
+menu > ul{
+    list-style-type: none;
+    background-color: lightgray;
+}
+
+menu li{
+    padding: 10px;
+    display: inline-block;
+}
+
+article{
+    width: 600px;
+    margin: auto;
+}
+
+article > h2{
+    text-align: center;
+    padding: 20px;
+}
+
