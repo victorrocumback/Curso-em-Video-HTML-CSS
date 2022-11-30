@@ -2,8 +2,8 @@
 
 /* Configurações Paisagem*/
 
-body::before{
-    content: 'Junior bixa';
+h1::after{
+    content: ' junior otario';
 }
 
 body{
